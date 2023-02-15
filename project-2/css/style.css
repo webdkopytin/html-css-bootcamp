@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    background-color: #000;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 53px 0;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+.container {
+    margin: 95px 65px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navigate {
+    padding-left: 25px;
+    margin-top: 50px;
+    list-style-type: disc;
+}
+
+.copyright {
+    margin-top: 50px;
+}
