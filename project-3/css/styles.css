@@ -17,7 +17,6 @@ a:focus,
     font-family: Helvetica, Roboto, Arial, sans-serif;
     font-weight: bold;
     background-color: #E5E000;
-    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -32,9 +31,8 @@ a:focus,
     background-image: url(../images/img.png);
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: contain;
+    background-size: cover;
     display: block;
-    width: 1440px;
     height: 1080px;
 }
 
@@ -49,14 +47,14 @@ a:focus,
     color: #000;
     font-size: 50px;
     font-weight: 200;
+    padding-left: 80px;
 }
 
 .content h2 {
-    padding: 119px 0 70px 80px;
+    padding: 119px 0 70px 0;
 }
 
 .content p {
-    padding-left: 80px;
     padding-bottom: 70px;
     max-width: 1196px;
 }
