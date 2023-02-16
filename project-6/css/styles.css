@@ -1,1 +1,89 @@
-/* project-6 mobile-first */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header,
+.footer {
+    color: white;
+    background-color: #0000FF;
+    height: 100px;
+    display: flex;
+}
+
+.header {
+    align-items: center;
+    padding-left: 30px;
+}
+
+.content {
+    margin: 102px 23px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+    border: 5px solid black;
+    gap: 25px;
+    max-width: 600px;
+}
+
+.footer {
+    padding: 0 30px;
+    align-items: center;
+}
+
+.header a,
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    justify-content: space-between;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .content {
+        font-size: 25px;
+        flex-direction: column;
+        gap: 41px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .item {
+        min-height: 165px;
+        max-width: 330px
+    }
+
+    .footer a {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .content {
+        font-size: 50px;
+        text-align: center;
+        gap: 20px;
+        justify-content: center;
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+
+    .item {
+        min-height: 300px;
+    }
+}
