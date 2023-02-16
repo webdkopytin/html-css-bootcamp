@@ -50,13 +50,18 @@
     margin-right: 25px;
 }
 
+.header ul li:last-child {
+    margin-right: 0;
+}
+
 .banner {
     width: 1440px;
     height: 950px;
     text-align: center;
     background-image: url("../images/evian_origins_logo.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
+    background-size: cover;
 }
 
 .banner span {
@@ -93,7 +98,6 @@
 }
 
 .products {
-    width: 1040px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -113,10 +117,9 @@
 }
 
 .footer {
-    height: 140px;
     background-color: #F8BFC7;
     color: #fff;
     font-size: 50px;
-    line-height: 140px;
-    padding-left: 50px;
+    line-height: 1px;
+    padding: 50px;
 }
