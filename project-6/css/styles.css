@@ -64,7 +64,7 @@
 
     .item {
         min-height: 165px;
-        max-width: 330px
+        max-width: 50%;
     }
 
     .footer a {
