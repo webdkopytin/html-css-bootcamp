@@ -138,6 +138,7 @@ footer {
     cursor: pointer;
     width: 200px;
     height: 60px;
+    border: 2px solid #fff;
     margin: 0 auto;
   }
 
