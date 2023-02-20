@@ -51,6 +51,7 @@ footer {
     color: #FEB700;
     text-transform: uppercase;
     padding: 29px 0 113px 0;
+    line-height: 53px;
 }
 
 header a {
@@ -167,9 +168,25 @@ footer {
     color: #fff;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (max-width: 700px) {
 
+    header,
+    footer {
+        height: 90px;
+        padding: 0 20px;
+        flex-wrap: wrap;
+    }
+    
+    .menu-left ul { 
+        gap: 25px;
+    }
 
+    .post-form {
+        margin: 0 auto;
+    }
 
+    .form-main {
+        margin-top: 40px;
+    }
 
 }
